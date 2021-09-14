@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #000000, #22012b);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+#cabecalho {
+  background: linear-gradient(to left, #000000, #22012b);
+  padding: 30px;
+  border-radius: 5%;
+  margin-top: 100px;
+}
+
+#foto {
+  margin-left: 25px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#linkGitHub,
+#linkInstagram,
+#linkFacebook {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+#linkGitHub {
+  background-color: #1b1f23;
+}
+
+#linkInstagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+#linkFacebook {
+  background-color: #4064ac;
+}
+
+#linkGitHub:hover {
+  background-color: #272d33;
+}
+
+#linkInstagram:hover {
+  background: linear-gradient(
+    45deg,
+    #ff9e37 0%,
+    #ff7746 25%,
+    #ff2e4e 50%,
+    #ff3083 75%,
+    #ff24ba 100%
+  );
+}
+
+#linkFacebook:hover {
+  background-color: #6196ff;
+}
+
+#rodape {
+  font-style: italic;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to left, #000000, #22012b);
+}
+
+#rodape:hover {
+  background: linear-gradient(to right, #000000, #22012b);
+}
