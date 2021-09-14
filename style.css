@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #000000, #22012b);
+  background-image: linear-gradient(to left, #724e48, #292127);
   color: white;
   font-family: "Poppins", sans-serif;
   width: 100vw;
@@ -23,21 +23,25 @@ body {
 }
 
 #cabecalho {
-  background: linear-gradient(to left, #000000, #22012b);
-  padding: 30px;
+  background-image: linear-gradient(to right, #724e48, #292127);
+  padding: 10px;
   border-radius: 5%;
 }
 
 #foto {
-  margin-left: 25px;
-  height: 250px;
-  width: 250px;
+  display: flex;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 #nome {
   font-size: 1.5rem;
   text-align: center;
+  color: #dfd2df;
 }
 
 #links {
@@ -46,16 +50,26 @@ body {
   padding: 30px;
 }
 
+#links a img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
 #linkGitHub,
 #linkInstagram,
-#linkFacebook {
+#linkFacebook,
+#linkLinkedin {
+  display: flex;
   text-decoration: none;
   color: white;
   font-size: 20px;
-  border-radius: 10%;
+  border-radius: 10px;
   padding: 10px;
   margin: 5px;
-  text-align: center;
+  align-items: center;
+  width: 20em;
+  justify-content: center;
 }
 
 #linkGitHub {
@@ -77,6 +91,10 @@ body {
   background-color: #4064ac;
 }
 
+#linkLinkedin {
+  background-color: #0074b4;
+}
+
 #linkGitHub:hover {
   background-color: #272d33;
 }
@@ -96,13 +114,12 @@ body {
   background-color: #6196ff;
 }
 
-#rodape {
-  font-style: italic;
-  padding: 20px;
-  border-radius: 10px;
-  background: linear-gradient(to left, #000000, #22012b);
+#linkLinkedin:hover {
+  background-color: #00a6ff;
 }
 
-#rodape:hover {
-  background: linear-gradient(to right, #000000, #22012b);
+#rodape {
+  font-style: italic;
+  padding: 5px;
+  border-radius: 10px;
 }
