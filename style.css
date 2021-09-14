@@ -23,7 +23,6 @@ body {
 }
 
 #cabecalho {
-  background-image: linear-gradient(to right, #724e48, #292127);
   padding: 10px;
   border-radius: 5%;
 }
@@ -122,4 +121,38 @@ body {
   font-style: italic;
   padding: 5px;
   border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: unset;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #cabecalho {
+    background: none;
+  }
+  #foto {
+    height: 150px;
+    width: 150px;
+  }
+  #linkGitHub,
+  #linkInstagram,
+  #linkFacebook,
+  #linkLinkedin {
+    font-size: 16px;
+    padding: 1px;
+  }
+
+  #rodape {
+    font-size: 12px;
+    margin-top: 120px;
+  }
 }
