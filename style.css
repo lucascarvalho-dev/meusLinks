@@ -36,6 +36,11 @@ body {
   border-radius: 50%;
 }
 
+#nome {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 #links {
   display: flex;
   flex-direction: column;
