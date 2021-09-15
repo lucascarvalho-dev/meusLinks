@@ -155,3 +155,35 @@ body {
     font-size: 12px;
   }
 }
+
+@media (max-width: 300px) {
+  #nome {
+    font-size: 20px;
+  }
+
+  #linkGitHub,
+  #linkInstagram,
+  #linkFacebook,
+  #linkLinkedin {
+    font-size: 12px;
+  }
+  #rodape {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  #nome {
+    font-size: 20px;
+  }
+
+  #linkGitHub,
+  #linkInstagram,
+  #linkFacebook,
+  #linkLinkedin {
+    font-size: 12px;
+  }
+  #rodape {
+    font-size: 10px;
+  }
+}
